@@ -1,0 +1,52 @@
+name: pregnancy_companion
+description: Pregnancy companion app — Home, Tools, Appointment Tracker, Community and Discover (built from the Figma "Interface design for mobile" file).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/home/
+    - assets/images/tools/
+    - assets/images/relax/
+    - assets/images/stories/
+    - assets/images/moods/
+    - assets/images/onboarding/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato_400Regular.ttf
+        - asset: assets/fonts/Lato_700Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Lato_700Bold_Italic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Lato_900Black.ttf
+          weight: 900
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans_400Regular.ttf
+        - asset: assets/fonts/OpenSans_400Regular_Italic.ttf
+          style: italic
+        - asset: assets/fonts/OpenSans_600SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans_700Bold.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSans_800ExtraBold.ttf
+          weight: 800

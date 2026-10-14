@@ -1,0 +1,8 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Pregnancy Companion (debug)", "request": "launch", "type": "dart", "program": "lib/main.dart" },
+    { "name": "Pregnancy Companion (profile)", "request": "launch", "type": "dart", "program": "lib/main.dart", "flutterMode": "profile" },
+    { "name": "Pregnancy Companion (Chrome)", "request": "launch", "type": "dart", "program": "lib/main.dart", "deviceId": "chrome" }
+  ]
+}
